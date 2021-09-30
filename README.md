@@ -1,2 +1,2 @@
-# playground
-Sample repository for working with GitHub API
+## Playground
+- Sample repository for working with GitHub API.
