@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+h1:hover{
+    color: darkred;
+}
+h3{
+    text-align: center; 
+    font-size: 40px;  
+}
+
+body{
+    background-color: peru;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+  .wrapper .static-text {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .static-text:hover{
+      color: chartreuse;
+  }
+  .wrapper .dynamic-text {
+    margin-bottom: 5px;
+  }
+  .dynamic-text li {
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    /* color: #eaeaea; */
+  }
+  .dynamic-text li span {
+    position: relative;
+  }
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  
+    background: peru;
+    border-left: 2px solid #eaeaea;
+    animation: typing 2.5s steps(9) infinite;
+  }
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
