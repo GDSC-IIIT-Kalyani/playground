@@ -1,0 +1,1 @@
+ami jaani na
